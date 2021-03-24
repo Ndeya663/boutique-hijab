@@ -1,3 +1,9 @@
+@font-face {
+ font-family: "Open Sans";
+ src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
+        url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+}
+
 body{
 	margin: 0;
 	width: 100%;
@@ -82,6 +88,7 @@ select {
  color:black;
  font-size: 14px;
  font-family: "Verdana";
+ font-weight: 600;
  }
  .menu li ul li{
  margin: 0;
@@ -188,3 +195,4 @@ h4 {
    font-size: larger;
 
 }
+
